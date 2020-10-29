@@ -1,7 +1,6 @@
 body {
   background-image: url(../img/bg02.jpg);
-  background-position: right top;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 
 .main {
@@ -12,12 +11,4 @@ body {
   background-image: url(../img/bg01.png);
   background-position: left top;
   background-repeat: no-repeat;
-}
-
-
-.bar {
-  position: absolute;
-  width: 100px;
-  height: 980px;
-  background-color: #a186be;
 }

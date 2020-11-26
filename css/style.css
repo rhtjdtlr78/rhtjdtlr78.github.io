@@ -1,4 +1,5 @@
-body {
+/* Page1 */
+.section01 {
   background-image: url(../img/bg02.jpg);
   background-repeat: repeat-x;
 }
@@ -11,4 +12,80 @@ body {
   background-image: url(../img/bg01.png);
   background-position: left top;
   background-repeat: no-repeat;
+}
+
+.portfolio {
+  position:fixed;
+  top: -24px;
+  left: 20px;
+}
+
+.Roundperson {
+  position:fixed;
+  top: 360px;
+  left:210px;
+}
+
+/* Page2 */
+.section02 {
+  background-image: url(../img/bg2.png);
+  background-repeat: repeat-x;
+}
+
+.section02 .d-flex {
+  padding-left: 30px
+}
+
+.section02 .person{
+    margin-left: 3.5rem;
+}
+
+.section02 .txt {
+  width: 350px;
+  margin-left: 3.5rem;
+}
+.section02 .kss {
+  margin-top: 3.5rem;
+  font-weight: 700
+}
+
+.section02 .malo {
+  opacity: 0.3;
+  margin-top: 6.5rem;
+  margin-left: 3.5rem;
+}
+
+.section02 .education{
+  margin-top: 6.5rem;
+}
+
+.section02 .line{
+  margin-top: 6.5rem;
+  margin-left: 6.5rem;
+}
+
+.section02 .skill{
+  margin-top: 6.5rem;
+}
+
+.section02 .skills{
+  margin-top: 6.5rem;
+  margin-left: 10.5rem;
+}
+/* Page3 */
+.section03 .self{
+  margin-top: 3.5rem;
+  margin-left: 3.5rem;
+}
+
+.section03 .life{
+  margin-top: -1.5rem;
+  margin-left: 3.5rem;
+}
+
+.section03{
+  background-color: #ebebeb;
+  background-image: url(../img/bgone.png);
+  background-repeat: no-repeat;
+  background-position: 200px;
 }
